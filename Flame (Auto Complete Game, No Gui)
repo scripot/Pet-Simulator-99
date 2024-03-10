@@ -1,0 +1,3 @@
+Webhook = "" --used when the player unlocks a new area or rebirths or teleports to tech world. (optional)
+getgenv().acgrunning = true --change to false if you want to stop the auto complete game and change back to true when you want to start it again
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flamedev0/ps99/main/autocompletegame.lua",true))()
